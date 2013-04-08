@@ -1,13 +1,10 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem 'pg'
-
-
+gem 'haml', '~> 4.0.2'
+gem 'haml-rails', '~> 0.4'
+gem 'bootstrap-sass', '~> 2.3.1.0'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -29,6 +26,7 @@ group :development, :test do
   gem 'guard-spork', '~> 1.5.0'
   gem 'win32console'
   gem 'rb-notifu'
+  gem 'wdm', '~> 0.1'
 end
 
 group :test do

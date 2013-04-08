@@ -1,7 +1,8 @@
 FilmGraph::Application.routes.draw do
-  get "static/index"
+  resources :venues
 
-  get "static/about"
+  root to: "static#index"
+  match "/about", to: "static#about"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
