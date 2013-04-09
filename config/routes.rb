@@ -1,5 +1,12 @@
 FilmGraph::Application.routes.draw do
+  get "events/index"
+
+  get "events/show"
+
+  get "events/new"
+
   resources :venues
+  resources :events
 
   root to: "static#index"
   match "/about", to: "static#about"

@@ -5,6 +5,7 @@ gem 'pg'
 gem 'haml', '~> 4.0.2'
 gem 'haml-rails', '~> 0.4'
 gem 'bootstrap-sass', '~> 2.3.1.0'
+gem 'faker', '~> 1.1.2'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
