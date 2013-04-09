@@ -23,6 +23,6 @@ describe "Statics" do
     # preliminary - links won't have much functionality yet, so no clicking
     it { should have_link('Venues', href: venues_path) }
     it { should have_link('Events') }
-    it { should have_link('About') }
+    it { should have_link('About', href: '/about') }
   end
 end
