@@ -1,8 +1,6 @@
 FilmGraph::Application.routes.draw do
   get "events/index"
-
   get "events/show"
-
   get "events/new"
 
   resources :venues

@@ -33,7 +33,7 @@ end
 group :test do
   gem 'capybara', '~> 2.0.3'
   gem 'factory_girl_rails'
-  gem 'shoulda-matchers'
+  gem 'shoulda-matchers', '~> 2.0.0'
 end
 
 # To use ActiveModel has_secure_password
