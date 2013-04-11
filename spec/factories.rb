@@ -4,6 +4,7 @@ FactoryGirl.define do
   end
 
   factory :event do
-    show_at { DateTime.new(2001, 2, 3) }
+    show_time { DateTime.now }
+    event_name "New Films"
   end
 end
