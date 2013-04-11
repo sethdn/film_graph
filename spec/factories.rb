@@ -7,4 +7,8 @@ FactoryGirl.define do
     show_time { DateTime.now }
     event_name "New Films"
   end
+
+  factory :movie do
+    title "The Shining"
+  end
 end
